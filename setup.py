@@ -14,7 +14,7 @@ setup(
     description='A python utility library containing functions for logging tile service usage.',
     long_description=open('README.md').read(),
     download_url="https://github.com/tilejet/tilejet-logs/zipball/master",
-    py_modules=["tilejet-logs"],
+    packages=["tilejetlogs"],
     classifiers = [
         'Development Status :: 1 - Beta',
         'Intended Audience :: Developers',
