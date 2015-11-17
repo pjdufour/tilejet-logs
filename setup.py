@@ -7,7 +7,7 @@ setup(
     version='0.0.1',
     install_requires=[],
     author='TileJet Developers',
-    author_email='XXX',
+    author_email='tilejet.dev@gmail.com',
     license='MIT License',
     url='https://github.com/tilejet/tilejet-logs/',
     keywords='python gis tilejet',
