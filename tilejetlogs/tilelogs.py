@@ -3,7 +3,7 @@ def buildTileRequestDocument(tileorigin=None, tilesource=None, x=None, y=None, z
         'ip': ip,
         'origin': tileorigin if tileorigin else "",
         'source': tilesource,
-        'location': z+'/'+x+'/'+y,
+        'location': str(z)+'/'+str(x)+'/'+str(y),
         'x': x,
         'y': y,
         'z': z,
